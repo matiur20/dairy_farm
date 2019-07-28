@@ -1,5 +1,9 @@
 public class Hello{
     public static void main(String args[]){
         System.out.println("Hello world");
+        gretting("Matiur Rahman");
+    }
+    public static void gretting(String name){
+        System.out.println("My name is "+ name);
     }
 }
